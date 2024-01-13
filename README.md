@@ -1,4 +1,4 @@
-# MySepolia Sample NFT Contract
+# MySepolia Sample Polygon NFT Contract
 
 ## Prerequisites
 
@@ -9,25 +9,14 @@
 1. Install project
 
 ```bash
-npm init --yes
-npm install --force
-npx hardhat init
+npm i
 ```
 
-2. Create an `.env` file from the `.env.example`
-
-3. Upload your images to IPFS, add link to MySepoliaNFT.json, upload JSON to IPFS, add link to ``MySepoliaNFT.sol:21``
+2. Create an `.env` and add your MetaMask `PRIVATE_KEY`
 
 3. Deploy with
 
 ```bash
 npx hardhat compile
-npx hardhat run scripts/deploy.js --network sepolia
-```
-
-4. [BONUS] Deploy to **Polygon**: add polygon network to MetaMask, fund MATIC, make hardhat.config.js to polygon and run
-
-```bash
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network matic
+npx hardhat run scripts/deploy.js
 ```
