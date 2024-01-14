@@ -12,7 +12,7 @@
 npm i
 ```
 
-2. Create an `.env` and add your MetaMask `PRIVATE_KEY`
+2. Create an `.env` and add `RPC_URL` and your MetaMask `PRIVATE_KEY`
 
 3. Deploy with
 
